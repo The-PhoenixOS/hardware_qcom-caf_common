@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "0442ea03_578056f0",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 33800
+      },
+      "writtenOn": "2024-11-03T14:55:50Z",
+      "side": 1,
+      "message": "Please check on others QCOM platforms. \nFor my bengal with 5.15 kernel version this commit fixes conflicts.",
+      "revId": "72fb046873c162be918e970adaea31a7cac5048d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}

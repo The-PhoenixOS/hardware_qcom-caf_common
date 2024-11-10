@@ -52,6 +52,23 @@
       "parentUuid": "e50038be_75721048",
       "revId": "4d82c63ee4832aafeae710443541620df53807c3",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "c92ced41_ec098a24",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 32210
+      },
+      "writtenOn": "2024-11-10T02:46:36Z",
+      "side": 1,
+      "message": "This May need to be used with Samsung Tab S9",
+      "revId": "4d82c63ee4832aafeae710443541620df53807c3",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }

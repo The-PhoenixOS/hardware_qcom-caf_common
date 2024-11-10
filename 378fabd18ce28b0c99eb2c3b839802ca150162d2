@@ -16,6 +16,24 @@
       "message": "Should check whether it works on all supported devices of LineageOS",
       "revId": "378fabd18ce28b0c99eb2c3b839802ca150162d2",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "50db9735_9ebbc6db",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 34167
+      },
+      "writtenOn": "2024-11-10T10:49:57Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "78d72b39_3b7b44ba",
+      "revId": "378fabd18ce28b0c99eb2c3b839802ca150162d2",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }

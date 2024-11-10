@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "2e6e7f11_6e4244eb",
+        "filename": "libqti-perfd-client/client.c",
+        "patchSetId": 4
+      },
+      "lineNbr": 35,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2024-11-10T10:34:07Z",
+      "side": 1,
+      "message": "Shouldn\u0027t this belong to the first change?",
+      "range": {
+        "startLine": 35,
+        "startChar": 11,
+        "endLine": 35,
+        "endChar": 20
+      },
+      "revId": "8bfc8213ccf1875f1d04fcebcde1ec38df459e71",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}

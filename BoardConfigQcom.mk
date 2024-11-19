@@ -61,7 +61,11 @@ SOONG_CONFIG_qtidisplay += \
     default \
     var1 \
     var2 \
-    var3
+    var3 \
+    is_target_uses_ycrcb_camera_preview \
+    is_target_uses_ycrcb_venus_camera_preview \
+    is_target_no_raw10_custom_format \
+    is_target_uses_ycrcb_camera_encode
 
 # Set default values for qtidisplay config
 SOONG_CONFIG_qtidisplay_drmpp ?= false
@@ -74,6 +78,24 @@ SOONG_CONFIG_qtidisplay_default ?= true
 SOONG_CONFIG_qtidisplay_var1 ?= false
 SOONG_CONFIG_qtidisplay_var2 ?= false
 SOONG_CONFIG_qtidisplay_var3 ?= false
+SOONG_CONFIG_qtidisplay_is_target_uses_ycrcb_camera_preview ?= false
+SOONG_CONFIG_qtidisplay_is_target_uses_ycrcb_venus_camera_preview ?= false
+SOONG_CONFIG_qtidisplay_is_target_no_raw10_custom_format ?= false
+SOONG_CONFIG_qtidisplay_is_target_uses_ycrcb_camera_encode ?= false
+
+# For libgrallocutils features
+ifeq ($(TARGET_USES_YCRCB_CAMERA_PREVIEW),true)
+    SOONG_CONFIG_qtidisplay_is_target_uses_ycrcb_camera_preview = true
+else ifeq ($(TARGET_USES_YCRCB_VENUS_CAMERA_PREVIEW),true)
+    SOONG_CONFIG_qtidisplay_is_target_uses_ycrcb_venus_camera_preview = true
+endif
+
+ifeq ($(TARGET_NO_RAW10_CUSTOM_FORMAT),true)
+    SOONG_CONFIG_qtidisplay_is_target_no_raw10_custom_format = true
+endif
+ifeq ($(TARGET_USES_YCRCB_CAMERA_ENCODE),true)
+    SOONG_CONFIG_qtidisplay_is_target_uses_ycrcb_camera_encode = true
+endif
 
 # Add rmnetctl to soong config namespaces
 SOONG_CONFIG_NAMESPACES += rmnetctl

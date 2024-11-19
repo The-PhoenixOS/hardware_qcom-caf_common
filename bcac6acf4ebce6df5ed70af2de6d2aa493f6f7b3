@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "c2ffa73b_6c1e34f2",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 32591
+      },
+      "writtenOn": "2024-11-19T14:01:57Z",
+      "side": 1,
+      "message": "Soong variables moved to hardware/qcom-caf/common.",
+      "revId": "bcac6acf4ebce6df5ed70af2de6d2aa493f6f7b3",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}

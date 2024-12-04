@@ -16,6 +16,23 @@
       "message": "verified on picasso (built and booted, run graphic benchmark and stress test)",
       "revId": "e07a197a81c53d48e8f797f8912ea354b8c5a420",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "4718bd83_3ce87d28",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 28223
+      },
+      "writtenOn": "2024-12-04T08:06:29Z",
+      "side": 1,
+      "message": "Can we extend this for sm8150 as well? That would need gralloc bp conversion too",
+      "revId": "e07a197a81c53d48e8f797f8912ea354b8c5a420",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }

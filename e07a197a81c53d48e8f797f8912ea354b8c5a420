@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "b06e15f1_6d48fede",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 32591
+      },
+      "writtenOn": "2024-12-04T07:09:12Z",
+      "side": 1,
+      "message": "verified on picasso (built and booted, run graphic benchmark and stress test)",
+      "revId": "e07a197a81c53d48e8f797f8912ea354b8c5a420",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}

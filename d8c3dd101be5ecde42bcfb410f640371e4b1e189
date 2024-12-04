@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "151998ed_b1717c35",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 32591
+      },
+      "writtenOn": "2024-12-04T08:38:45Z",
+      "side": 1,
+      "message": "Further test may not necessary on sm8150 platform since they share the same build logic. Looks good.",
+      "revId": "d8c3dd101be5ecde42bcfb410f640371e4b1e189",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
